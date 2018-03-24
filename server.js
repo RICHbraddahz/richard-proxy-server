@@ -1,11 +1,12 @@
+const nr = require('newrelic');
 const express = require('express');
-const morgan = require('morgan');
+// const morgan = require('morgan');
 const path = require('path');
 
 const app = express();
 const port = 3000;
 
-app.use(morgan('dev'));
+// app.use(morgan('dev'));
 app.use('/listings/:id', express.static(path.join(__dirname, 'public')));
 app.use(express.static(path.join(__dirname, 'public')));
 
