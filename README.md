@@ -1,1 +1,1 @@
-# moriah-proxy
+# richard-proxy
