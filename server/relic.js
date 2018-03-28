@@ -1,4 +1,4 @@
-const key = require('./relickey');
+const key = require('../relickey');
 
 'use strict'
 /**
